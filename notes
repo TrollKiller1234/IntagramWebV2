@@ -1,0 +1,41 @@
+Ls – vypise obsah directory
+cd – vstupovanie do adresarov
+npm run dev – spusti lokalny server html
+npm run build – compiluje celu „apku“ a vypluje hotovy produkt
+
+relative path – fyzicka cesta suboru na disku
+<Container> - podobne ako <div> v html. Zabali (Wrap) content.
+Metadata – su vsetky data ktore sa nachadzaju v informacnej kolonke stranky v prehliadaci
+Typography – funkcia na vypisanie textu. Nieco ako <p> v html
+
+page.tsx – Musi sa volat page.tsx a je to zaklad pre stranku na zobrazenie textu obrazokv atd
+layout.tsx – je cast stranky kde sa nastavuje rozlozenie stranky
+not-found.tsx-
+
+React – frontend framework
+next.js – Vylepseny react ktory podporuje full stack framework (frontend a backend)
+
+routing – je smerovanie medzi serverom a klientom s poziadavkou. Klient odosle poziadavku o nacitanie stranky a server odosle odpoved nacitanim stranky.
+
+git init – inicializuje git v kode a vytvori zlozku „.git“
+git remote add origin „URL“ – nastavenie umiestenia github repository
+git remote -v – overenie nastavenia umiestenia github repository
+git commit -m „name“ – zhrnutie zdrojoveho kodu na lokalnom pc
+git config --global user.name „name“ – nastavenie prihlasovacieho mena
+git config --global user.email „email“ – nastavenie prihlasovacieho emailu
+git add . – vloz aktualnu zlozku (vsetky subory)
+
+Git – Uklada kazdu zmenu a novu verziu kodu na lokalnom zariadeni
+Github – sluzi na ulozenie zdrojoveho kodu na cloud
+Vercel – Sluzba ktora poskytuje dostupnost stranky mimo localhosta. Cize na internete.
+
+LOCAL FILE -> GIT -> GITHUB -> VERCEL IP
+
+
+
+
+VYPIS STRUKTURY PROJEKTU
+cd src
+ls -R | awk '/:$/ {gsub(/:/,""); print $0;next} /^$/ {next} {print "|-- "$0}'
+
+.gitignore - vsetko co sa tu zapise git ignoruje a nekomituje
