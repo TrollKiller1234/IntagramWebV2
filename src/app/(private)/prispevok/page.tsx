@@ -23,7 +23,7 @@ import { PrismaClient } from "@prisma/client";
 import Typography from "@mui/material/Typography";
 import Image from "next/image";
 
-export const metadata = { title: "Zoznam prispevkov | INSTAGRAM" };
+export const metadata = { title: "Zoznam prispevkov | InstagramWeb" };
 
 const prisma = new PrismaClient();
 

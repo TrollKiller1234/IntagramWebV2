@@ -7,7 +7,7 @@
 
 import SignUpView from "@/sections/SignUpView";
 
-export const metadata = { title: "Registrácia užívateľa | ZoškaSnap" };
+export const metadata = { title: "Registrácia užívateľa | InstragramWeb" };
 
 export default function SignUpPage() {
   return <SignUpView />;

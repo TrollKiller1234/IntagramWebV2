@@ -1,16 +1,9 @@
-
 // src/app/o-mne/page.tsx
 
-import Typography from "@mui/material/Typography";
-import Container from "@mui/material/Container";
+import AboutMe from "@/sections/AboutMe";
 
-export const metadata = { title: 'O mne | ZoskaSnap'}
+export const metadata = { title: "O mne | InstagramWeb" };
 
 export default function About() {
-
-  return(
-    <Container>
-      <Typography> Stranka o mne </Typography>
-    </Container>
-  );
+  return <AboutMe />;
 }
